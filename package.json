@@ -1,0 +1,33 @@
+{
+  "author": {
+    "name": "Thomas Radloff",
+    "email": "bostontrader@gmail.com",
+    "url": "https://github.com/bostontrader"
+  },
+  "bugs": {
+    "url": "https://github.com/bostontrader/wits-central/issues"
+  },
+  "description": "This is the central listener for WITS. Listens for incoming info from the agents, updates the db as appropriate, and sends back orders to the agents.",
+  "devDependencies": {
+    "standard": "7.1.2"
+  },
+  "dependencies": {
+    "json-duplex-stream": "1.2.0"
+  },
+  "keywords": [
+    "CMDB",
+    "nodejs",
+    "WITS"
+  ],
+  "license": "MIT",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bostontrader/wits-central.git"
+  },
+  "scripts": {
+    "lint": "standard"
+  },
+  "name": "wits-central",
+  "version": "0.1.0"
+}
