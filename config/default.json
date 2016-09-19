@@ -1,0 +1,5 @@
+{
+  "configName": "default",
+  "socket_port": "6502",
+  "ws_port": "8088"
+}

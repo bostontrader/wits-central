@@ -12,7 +12,9 @@
     "standard": "7.1.2"
   },
   "dependencies": {
-    "json-duplex-stream": "1.2.0"
+    "config": "1.21.0",
+    "json-duplex-stream": "1.2.0",
+    "ws": "1.1.1"
   },
   "keywords": [
     "CMDB",
@@ -29,5 +31,5 @@
     "lint": "standard"
   },
   "name": "wits-central",
-  "version": "0.1.0"
+  "version": "0.2.0"
 }
